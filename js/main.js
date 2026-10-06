@@ -118,7 +118,7 @@
   // File download functionality
   $("#downloadBtn").on("click", function (event) {
     event.preventDefault();
-    var filePath = "/WuttYeeTun_SoftwareEngineer_CV.pdf";
+    var filePath = "WuttYeeTun_SoftwareEngineer_CV.pdf";
 
     fetch(filePath)
       .then((response) => {
